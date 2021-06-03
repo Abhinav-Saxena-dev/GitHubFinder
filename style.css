@@ -29,7 +29,6 @@
 }
 .searchBox{
     margin-top: 25vh;
-    /*display: none;*/
 }
 #form1{
     display: flex;
@@ -59,11 +58,19 @@
     display: none;
     border: 2px solid black;
     height: 80vh;
+    padding: 20px;
 }
 .image{
     display: flex;
-    border: 2px solid black;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 40vh;
+}
+#imag{
+    border : 1px solid black;
+    border-radius: 50%;
+    height: 40vh;
+}
+.data{
+    line-height: 80px;
 }
